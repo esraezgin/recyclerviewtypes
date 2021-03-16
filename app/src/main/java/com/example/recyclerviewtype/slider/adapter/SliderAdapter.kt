@@ -24,9 +24,15 @@ class SliderAdapter(imageList: ArrayList<Picture>, viewPager2: ViewPager2) : Rec
 
     override fun onBindViewHolder(holder: SliderAdapterViewHolder, position: Int) {
        holder.bind(tempImageList[position])
-        if(position==(tempImageList.size-2)){
+        /*
+          INFINITE LOOP İSTENMESSE
+          if(position==tempImageList.size){
             _viewPager2.post(runnable)
         }
+         */
+      /* if(position==(tempImageList.size-2)){
+            _viewPager2.post(runnable)
+        }*/
     }
 
     override fun getItemCount(): Int {
