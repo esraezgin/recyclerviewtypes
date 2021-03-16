@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city_name">
+        <item>Türkiye</item>
+        <item>İtalya</item>
+        <item>Rusya</item>
+        <item>Almanya</item>
+        <item>Japonya</item>
+    </string-array>
+
+
+    <string-array name="turkey_city_name">
+        <item>İstanbul</item>
+        <item>Ankara</item>
+        <item>İzmir</item>
+        <item>Trabzon</item>
+        <item>Eskişehir</item>
+    </string-array>
+
+
+    <string-array name="russia_city_name">
+        <item>Kazan</item>
+        <item>Moskova</item>
+        <item>Novasibirsk</item>
+        <item>Yekaterinburg</item>
+        <item>Soçhi</item>
+        <item>St.Petersburg</item>
+    </string-array>
+
+
+    <string-array name="german_city_name">
+        <item>Berlin</item>
+        <item>Frankfurt</item>
+        <item>Hamburg</item>
+        <item>Köln</item>
+        <item>Leipzig</item>
+        <item>Münih</item>
+    </string-array>
+
+
+    <string-array name="italy_city_name">
+        <item>Floransa</item>
+        <item>Cenova</item>
+        <item>Milano</item>
+        <item>Roma</item>
+        <item>Venedik</item>
+        <item>Torino</item>
+    </string-array>
+
+
+    <string-array name="china_city_name">
+        <item>Tokyo</item>
+        <item>Kyato</item>
+        <item>Sapporo</item>
+        <item>Nagazaki</item>
+        <item>Yokohama</item>
+        <item>Osaka</item>
+    </string-array>
+
+
+    <string-array name="lesson">
+        <item>Bilgi Güvenliği</item>
+        <item>Marka Yönetimi</item>
+        <item>Web Programlama</item>
+        <item>İktisata Giriş</item>
+        <item>Sosyal Ağ Analizi</item>
+        <item>İşletme</item>
+    </string-array>
+
+
+
+</resources>

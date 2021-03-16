@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecyclerViewType</string>
+    <string name="recyclerview_types">RecyclerView Types</string>
+    <string name="nested">NESTED</string>
+    <string name="nested_view_pager">NESTED VIEW PAGER</string>
+    <string name="concat">CONCAT</string>
+    <string name="nestedTitle">Şehirler</string>
+    <string name="slider">Slider</string>
+</resources>
