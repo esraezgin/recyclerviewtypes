@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import com.example.recyclerviewtype.concat.screen.ConcatActivity
 import com.example.recyclerviewtype.nested.screen.NestedRcycView
 import com.example.recyclerviewtype.slider.screen.SliderActivity
@@ -22,6 +23,7 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
         showNestedRcyButton.setOnClickListener(this)
         showNestedViewPagerButton.setOnClickListener(this)
         showConcatButton.setOnClickListener(this)
+        showSliderButton.setOnClickListener(this)
     }
 
 
@@ -38,13 +40,13 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
          R.id.showConcatButton->{
              val concatIntent=Intent(this,ConcatActivity::class.java)
              startActivity(concatIntent)
-
          }
-         R.id.showSliderViewpager2->{
+         R.id.showSliderButton -> {
              val sliderIntent=Intent(this,SliderActivity::class.java)
              startActivity(sliderIntent)
 
-         }else->{
+         }
+         else->{
              Log.d(HomeActivity::class.java.simpleName,"Button is undefined")
          }
      }

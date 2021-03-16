@@ -11,12 +11,11 @@
         android:id="@+id/topic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="108dp"
         android:text="@string/recyclerview_types"
         android:textColor="@color/black"
         android:textSize="@dimen/dimen_30"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,10 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:background="@color/purple_700"
         android:text="@string/nested"
-        android:textSize="@dimen/dimen_18"
-        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topic"/>
@@ -38,10 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:background="@color/purple_500"
         android:text="@string/nested_view_pager"
-        android:textSize="@dimen/dimen_18"
-        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/showNestedRcyButton"/>
@@ -52,21 +45,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="@string/concat"
-        android:textSize="@dimen/dimen_18"
-        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/showNestedViewPagerButton"/>
 
     <Button
-        android:id="@+id/showSliderViewpager2"
+        android:id="@+id/showSliderButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:text="@string/slider"
-        android:textSize="@dimen/dimen_18"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/showNestedViewPagerButton"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/showConcatButton"
+        android:layout_marginTop="@dimen/dimen_40dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
