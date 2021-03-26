@@ -12,9 +12,9 @@ object SliderHelper {
 
     fun getLoadData():ArrayList<Picture>{
         val imageList=ArrayList<Picture>()
-        loadData(imageList,R.drawable.istanbul,"İstanbul")
-            loadData(imageList,R.drawable.ankara,"Ankara")
-        loadData(imageList,R.drawable.berlin,"Berlin")
+        loadData(imageList,R.drawable.credit_card_1,"İstanbul")
+            loadData(imageList,R.drawable.credit_card_2,"Ankara")
+        loadData(imageList,R.drawable.credit_card_3,"Berlin")
         loadData(imageList,R.drawable.cenova,"Cenova")
         loadData(imageList,R.drawable.eskisehir,"Eskişehir")
         loadData(imageList,R.drawable.koln,"Köln")
@@ -28,7 +28,7 @@ object SliderHelper {
 
     fun getCompositePageTransform():CompositePageTransformer{
         val _compositePageTransform=CompositePageTransformer()
-        _compositePageTransform.addTransformer(MarginPageTransformer(40))
+        _compositePageTransform.addTransformer(MarginPageTransformer(50))
         _compositePageTransform.addTransformer(object :ViewPager2.PageTransformer{
             override fun transformPage(page: View, position: Float) {
                 var r = 1-Math.abs(position)

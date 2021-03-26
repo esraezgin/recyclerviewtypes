@@ -11,11 +11,11 @@ import kotlinx.android.synthetic.main.item_slider_layout.view.*
 class SliderAdapterViewHolder(view:View):RecyclerView.ViewHolder(view) {
 
     val imageView:ImageView=view.slider_itemImageView
-    val imageName:TextView=view.sliderName
+   // val imageName:TextView=view.sliderName
 
 
     fun bind(item: Picture){
         imageView.setImageResource(item.imageData)
-        imageName.text=item.imageName
+       // imageName.text=item.imageName
     }
 }

@@ -32,6 +32,7 @@ class SliderAdapter(imageList: ArrayList<Picture>, viewPager2: ViewPager2) : Rec
          */
       /* if(position==(tempImageList.size-2)){
             _viewPager2.post(runnable)
+            }
         }*/
     }
 

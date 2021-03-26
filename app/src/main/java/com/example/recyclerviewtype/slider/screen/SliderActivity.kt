@@ -20,9 +20,9 @@ class SliderActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_slider)
         handleViewPager2()
-        handlerSliderProcessButton()
+        //handlerSliderProcessButton()
     }
-
+/*
     private fun handlerSliderProcessButton() {
         stopSliderButton.setOnClickListener {
             if(stopSliderButton.text.equals("Stop")){
@@ -34,8 +34,8 @@ class SliderActivity : AppCompatActivity() {
             }
         }
     }
-
-
+*/
+/*
     override fun onPause() {
         super.onPause()
         sliderHandle.removeCallbacks(sliderRunnable)
@@ -46,6 +46,8 @@ class SliderActivity : AppCompatActivity() {
         sliderHandle.postDelayed(sliderRunnable,2000)
     }
 
+ */
+
     private fun handleViewPager2() {
         imageSliderVP2.adapter=SliderAdapter(SliderHelper.getLoadData(), imageSliderVP2)
 
@@ -55,6 +57,7 @@ class SliderActivity : AppCompatActivity() {
         imageSliderVP2.getChildAt(0).overScrollMode=RecyclerView.OVER_SCROLL_NEVER
         imageSliderVP2.setPageTransformer(SliderHelper.getCompositePageTransform())
 
+        /*
         imageSliderVP2.registerOnPageChangeCallback(object : OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)
@@ -62,7 +65,9 @@ class SliderActivity : AppCompatActivity() {
                 sliderHandle.postDelayed(sliderRunnable,2000)
             }
         })
+        */
+
     }
 
-    private val sliderRunnable = Runnable { imageSliderVP2.setCurrentItem(imageSliderVP2.getCurrentItem() + 1) }
+  //  private val sliderRunnable = Runnable { imageSliderVP2.setCurrentItem(imageSliderVP2.getCurrentItem() + 1) }
 }
